@@ -14,7 +14,8 @@ while True:
     i = int(input("1.게임시작  2.랭킹보기  3.게임종료  >>>  "))
 
     if i == 1:
-        print("--> ")
+        print("main branch 수정")
+        print("--> 게임을 시작합니다")
         print("컴퓨터가 숫자를 골랐습니다.")
         number = 0
         rand_num = int(random.randint(0,100))
